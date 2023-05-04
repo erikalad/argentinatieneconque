@@ -19,21 +19,21 @@ export default function Contenido() {
           
       
         <Carousel.Item>
-          <img width="100%" src={img4} />
+          <a href='#videos'><img width="100%" src={img4} /></a>
         </Carousel.Item>
         <Carousel.Item>
-          <img width="100%" src={img2}  />
+        <a href='#videos'> <img width="100%" src={img2}  /></a>
         </Carousel.Item>
         <Carousel.Item>
-          <img width="100%" src={img3}  />
+        <a href='#videos'> <img width="100%" src={img3}  /></a>
         </Carousel.Item>
         <Carousel.Item>
-        <img width="100%" src={img1}  />
+        <a href='#videos'> <img width="100%" src={img1}  /></a>
         </Carousel.Item>
       
         </Carousel>
         </div>
-        <div className='contenedor-video'>
+        <div className='contenedor-video' id='videos'>
        <div className='titulo-video'>Es con las Pymes, el trabajo argentino y la industria nacional</div>
        <hr></hr>
        <div className='video'>
