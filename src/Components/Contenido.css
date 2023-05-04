@@ -4,14 +4,38 @@
     border: 1px solid rgba(128, 128, 128, 0.355);
     border-radius: 20px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
-    gap:3rem
+    gap:3rem;
+   
+}
+
+.titulo-video{
+    display: flex;
+    justify-content: center;
+    margin-top:1rem;
+
+
+}
+
+.carrousel{
+margin-bottom: 3rem;
 }
 
 .video{
     display: flex;
-    gap:2rem
+    gap:2rem;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .contenedor-video{
     margin-bottom: 2rem;
+    flex-wrap: wrap;
 }
+
+.contenedor-chico{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
