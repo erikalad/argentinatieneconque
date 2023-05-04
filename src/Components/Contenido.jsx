@@ -42,9 +42,7 @@ export default function Contenido() {
        <Col >
         <Statistic title="Visitas" value={531655} />
         </Col>
-        <Col >
-        <Statistic title="Me gusta" value={3} prefix={<LikeOutlined />} />
-        </Col>
+       
         </div>
         </div>
       
@@ -59,9 +57,7 @@ export default function Contenido() {
        <Col className='columnas'>
         <Statistic title="Visitas" value={566463} />
         </Col>
-        <Col className='columnas'>
-        <Statistic title="Me gusta" value={7} prefix={<LikeOutlined />} />
-        </Col>
+       
         </div>
         </div>
 
@@ -75,9 +71,7 @@ export default function Contenido() {
        <Col className='columnas' >
         <Statistic title="Visitas" value={1405785} />
         </Col>
-        <Col className='columnas' >
-        <Statistic title="Me gusta" value={4} prefix={<LikeOutlined />} />
-        </Col>
+       
         </div>
         </div>
 
@@ -91,9 +85,7 @@ export default function Contenido() {
        <Col className='columnas'>
         <Statistic title="Visitas" value={566455 } />
         </Col>
-        <Col className='columnas'>
-        <Statistic title="Me gusta" value={10} prefix={<LikeOutlined />} />
-        </Col>
+       
         </div>
         </div>
 
@@ -106,9 +98,7 @@ export default function Contenido() {
        <Col className='columnas' >
         <Statistic title="Visitas" value={983947} />
         </Col>
-        <Col className='columnas'>
-        <Statistic title="Me gusta" value={6} prefix={<LikeOutlined />} />
-        </Col>
+        
         </div>
         </div>
 
