@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from './../Imagenes/Perfil 1.jpg'
+import youtube from './../Imagenes/Youtube_logo.png'
 import './Nav.css'
 
 export default function Nav() {
@@ -12,16 +13,11 @@ export default function Nav() {
                 <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 lista">
                     <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a href='https://www.youtube.com/channel/UCqZfN80RcEttLEgPCle5G9w'><img class="logo-youtube" src={youtube}/></a>
                     </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link disabled">Disabled</a>
-                    </li>
+                    
                 </ul>
                
                 </div>
