@@ -7,8 +7,10 @@ import img1 from './../Imagenes/industria.jpg'
 import img2 from './../Imagenes/industria 2.jpg'
 import img3 from './../Imagenes/Industria 3.jpg'
 import img4 from './../Imagenes/Indutria 4.jpg'
+import CountUp from 'react-countup';
 
 export default function Contenido() {
+  const formatter = (value) => <CountUp end={value} separator="," />;
   return (
     <div className='contenedor-videos'>
      
@@ -40,7 +42,7 @@ export default function Contenido() {
        <iframe width="560" height="315" src="https://www.youtube.com/embed/BC7ShSKBpJQ?start=2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
        
        <Col >
-        <Statistic title="Visitas" value={531655} />
+        <Statistic title="Visitas" value={1853425}  precision={2} formatter={formatter} />
         </Col>
        
         </div>
@@ -55,7 +57,7 @@ export default function Contenido() {
        <iframe width="560" height="315" src="https://www.youtube.com/embed/Mhq3FIpH1g8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
        
        <Col className='columnas'>
-        <Statistic title="Visitas" value={566463} />
+        <Statistic title="Visitas" value={566463} precision={2} formatter={formatter} />
         </Col>
        
         </div>
@@ -69,7 +71,7 @@ export default function Contenido() {
        <iframe width="560" height="315" src="https://www.youtube.com/embed/RHJfuum4vCk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
        
        <Col className='columnas' >
-        <Statistic title="Visitas" value={1405785} />
+        <Statistic title="Visitas" value={1471085} precision={2} formatter={formatter} />
         </Col>
        
         </div>
@@ -83,7 +85,7 @@ export default function Contenido() {
        <iframe width="560" height="315" src="https://www.youtube.com/embed/9mksAcRYwbo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
        
        <Col className='columnas'>
-        <Statistic title="Visitas" value={566455 } />
+        <Statistic title="Visitas" value={566480} precision={2} formatter={formatter} />
         </Col>
        
         </div>
@@ -96,7 +98,7 @@ export default function Contenido() {
        <iframe width="560" height="315" src="https://www.youtube.com/embed/SlGKAqdlGDo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
        
        <Col className='columnas' >
-        <Statistic title="Visitas" value={983947} />
+        <Statistic title="Visitas" value={983972} precision={2} formatter={formatter} />
         </Col>
         
         </div>
